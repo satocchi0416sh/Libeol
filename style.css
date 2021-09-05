@@ -1,3 +1,7 @@
+body {
+    width: 1920px;
+}
+
 .all-wrapper {
     font-family: 游明朝体;
     font-style: normal;
@@ -167,4 +171,15 @@ a {
 .gallery-ttl {
     text-align: center;
     font-size: 50px;
+}
+
+.slide-wrap {
+    margin-top: 129px;
+    margin-bottom: 129px;
+}
+
+.slide-wrap ul {
+    display: flex;
+    overflow: hidden;
+    left: -3000px;
 }
