@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-1.12.1.min.js"></script>
+    <title>Libeol</title>
+</head>
+
+<body>
+    <div class="all-wrapper">
+        <header class="header">
+            <div class="header-inner">
+                <a href="" class="header-img"><img src="items/アセット 8@2x.png" alt="Libeol"></a>
+                <nav class="header-nav">
+                    <ul class="show-menu">
+                        <li class="item"><a href="">Libeolについて</a></li>
+                        <li class="item"><a href="">ギャラリー</a></li>
+                        <li class="item"><a href="">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-index">
+            <div class="mv">
+                <div class="mv-imgs">
+                    <img src="items/BackGround@2x.jpg" alt="" class="mv-background">
+                    <img src="items/brooke-cagle--uHVRvDr7pg-unsplash@2x.png" alt="" class="mv-img">
+                </div>
+                <div class="mv-ttl-wrapper">
+                    <div class="mv-ttls">
+                        <h1 class="mv-ttl">いい感じのタイトル</h1>
+                        <h2 class="mv-subttl">いい感じのサブタイトル</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-ttl-wrapper">
+                    <h1 class="news-ttl-en">News</h1>
+                    <h2 class="news-ttl-ja">お知らせ</h2>
+                </div>
+                <ul class="list-news">
+                    <li>
+                        <a href="">
+                            <img src="items/antonio-janeski-CHVTt0aGbx0-unsplash@2x.jpg" alt="" class="item-img">
+                            <div class="item-ttl">ここにテキストが入ります</div>
+                            <div class="item-date">2021/09/01</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="items/antonio-janeski-CHVTt0aGbx0-unsplash@2x.jpg" alt="" class="item-img">
+                            <div class="item-ttl">ここにテキストが入ります</div>
+                            <div class="item-date">2021/09/01</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="items/antonio-janeski-CHVTt0aGbx0-unsplash@2x.jpg" alt="" class="item-img">
+                            <div class="item-ttl">ここにテキストが入ります</div>
+                            <div class="item-date">2021/09/01</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about">
+                <div class="about-img-wrapper">
+                    <div class="about-img-back"></div>
+                    <img src="items/photo-1600880292203-757bb62b4baf@2x.jpg" alt="" class="thumbnail">
+                </div>
+                <div class="about-text-wrapper">
+                    <h2 class="about-ttl">事業を最大限発信すること</h2>
+                    <div class="about-text">
+                        <p>
+                            ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
+                            <br><br> ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
+                            <br><br> ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <h2 class="gallery-ttl">GALLERY</h2>
+                <div class="slide-wrap">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="items/クライマークス-1-768x671@2x.jpg" alt="">
+                                <div class="item-ttl">ここにテキストが入ります</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="items/リライル会計事務所-1-768x671@2x.jpg" alt="">
+                                <div class="item-ttl">ここにテキストが入ります</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="items/NONAKAWORLD-1-768x671@2x.jpg" alt="">
+                                <div class="item-ttl">ここにテキストが入ります</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-wrap">
+                <h2 class="form-ttl">お問い合わせ </h2>
+                <form id="form" action="conf.php" method="post">
+                    <ul class="form">
+                        <li>
+                            <div class="text_area"><label for="name">お名前</label></div>
+                            <div class="form_area"><input name="name" id="name" type="text" class="form-item ms" placeholder="リビュール太朗" required></div>
+                        </li>
+                        <li>
+                            <div class="text_area"><label for="kana">ふりがな</label></div>
+                            <div class="form_area"><input name="kana" id="kana" type="text" class="form-item ms" placeholder="りびゅーるたろう" required></div>
+                        </li>
+                        <li>
+                            <div class="text_area"><label class="req" for="mail">メールアドレス</label></div>
+                            <div class="form_area"><input name="mail" id="mail" type="email" class="form-item" placeholder="libeol@mail.com" required></div>
+                        </li>
+                        <li>
+                            <div class="text_area"><label class="req" for="tell">電話番号</label></div>
+                            <div class="form_area"><input name="tell" id="tell" type="text" class="form-item" placeholder="000-0000-0000" required></div>
+                        </li>
+                        <li>
+                            <div class="text_area"><label for="message">お問い合わせ内容</label></div>
+                            <div class="form_area"><textarea name="message" id="message" type="text" class="form-item" placeholder="お問い合わせ内容を入力してください。" required></textarea></div>
+                        </li>
+                    </ul>
+                    <p class="mailtxt">上記入力内容にお間違いないかご確認の上、確認画面へお進みください。内容を確認後、営業日中にメールにてお返事させて頂きます。</p>
+                    <input type="submit" class="form-submit" name="button" value="内容の確認画面へ">
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-img">
+                    <img src="items/アセット 8@2x.png" alt="">
+                </div>
+                <div class="link_area">
+                    <a href="about/" class="link-text">Libeolについて</a>
+                    <a href="gallery/" class="link-text">ギャラリー</a>
+                    <a href="contact/" class="link-text">お問い合わせ</a>
+                </div>
+                <div class="footer-copy-rights">
+                    Copyright &copy; Libeol. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

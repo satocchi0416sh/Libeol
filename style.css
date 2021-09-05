@@ -1,0 +1,170 @@
+.all-wrapper {
+    font-family: 游明朝体;
+    font-style: normal;
+    color: #212121;
+}
+
+.header {
+    width: 100%;
+    height: 268px;
+}
+
+.header-inner {
+    padding-top: 50px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.show-menu {
+    display: flex;
+}
+
+.header-img {
+    padding-right: 122;
+}
+
+.item {
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #707070;
+}
+
+.mv {
+    display: flex;
+    width: 1920px;
+    height: 805px;
+}
+
+.mv-ttl-wrapper {
+    width: 835px;
+    padding-top: 329px;
+    padding-left: 120px;
+}
+
+.mv-ttls {
+    position: absolute;
+    text-align: center;
+}
+
+.mv-ttl {
+    font-size: 100px;
+    margin-bottom: 16px;
+}
+
+.mv-subttl {
+    font-size: 30px;
+    margin-top: 16px;
+    color: #707070;
+}
+
+.mv-background {
+    position: absolute;
+    left: 918px;
+}
+
+.mv-img {
+    position: absolute;
+    margin-right: auto;
+    left: 766px;
+    top: 400px;
+}
+
+.news {
+    width: 1920px;
+    height: 800px;
+    background-color: #FFF5E0;
+    margin-bottom: 168px;
+    padding-left: 120px;
+}
+
+.news-ttl-wrapper {
+    padding-top: 68px;
+    padding-bottom: 30px;
+    padding-left: 67px;
+    display: flex;
+    position: relative;
+}
+
+.news-ttl-en {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.news-ttl-ja {
+    font-size: 50px;
+    padding-left: 35px;
+    padding-top: auto;
+    padding-bottom: auto;
+    color: #707070;
+    top: 0%;
+}
+
+.list-news {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.list-news li {
+    padding-right: 90px;
+}
+
+.item-ttl {
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.item-date {
+    text-align: right;
+}
+
+.about {
+    width: 1920px;
+    height: 846px;
+    display: flex;
+}
+
+.about-img-wrapper {
+    padding-left: 120px;
+}
+
+.about-img-back {
+    width: 846px;
+    height: 606px;
+    background-color: #FFF5E0;
+    margin-top: 111px;
+}
+
+.thumbnail {
+    position: absolute;
+    top: 2051.5px;
+    left: 230px;
+}
+
+.about-text-wrapper {
+    padding-left: 169px;
+    padding-right: 120px;
+}
+
+.about-ttl {
+    font-size: 50px;
+}
+
+.about-text {
+    font-size: 25px;
+    color: #707070;
+}
+
+.gallery-ttl {
+    text-align: center;
+    font-size: 50px;
+}
