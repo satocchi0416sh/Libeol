@@ -1,8 +1,18 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
 body {
-    width: 1920px;
+    height: 100%;
+}
+
+li {
+    list-style: none;
 }
 
 .all-wrapper {
+    width: auto;
     font-family: 游明朝体;
     font-style: normal;
     color: #212121;
@@ -10,14 +20,16 @@ body {
 
 .header {
     width: 100%;
-    height: 268px;
+    height: 100vh;
 }
 
 .header-inner {
     padding-top: 50px;
-    padding-left: 120px;
+    padding-left: 5vw;
+    padding-right: 5vw;
     display: flex;
     align-items: center;
+    height: 268px;
 }
 
 .show-menu {
@@ -32,24 +44,22 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     list-style: none;
+    font-size: 2.5rem;
 }
 
 a {
     text-decoration: none;
-    font-size: 25px;
     color: #707070;
 }
 
 .mv {
     display: flex;
-    width: 1920px;
-    height: 805px;
 }
 
 .mv-ttl-wrapper {
     width: 835px;
-    padding-top: 329px;
-    padding-left: 120px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .mv-ttls {
@@ -58,38 +68,42 @@ a {
 }
 
 .mv-ttl {
-    font-size: 100px;
+    margin-top: 50%;
+    font-size: 10rem;
     margin-bottom: 16px;
 }
 
 .mv-subttl {
-    font-size: 30px;
+    font-size: 2.5rem;
     margin-top: 16px;
     color: #707070;
 }
 
 .mv-background {
     position: absolute;
-    left: 918px;
+    left: 43%;
+    width: 53vw;
+    top: 30%;
 }
 
 .mv-img {
     position: absolute;
     margin-right: auto;
-    left: 766px;
-    top: 400px;
+    width: 53vw;
+    left: 35%;
+    top: 35%;
 }
 
 .news {
-    width: 1920px;
-    height: 800px;
+    height: 80vh;
     background-color: #FFF5E0;
     margin-bottom: 168px;
-    padding-left: 120px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .news-ttl-wrapper {
-    padding-top: 68px;
+    padding-top: 5vh;
     padding-bottom: 30px;
     padding-left: 67px;
     display: flex;
@@ -114,49 +128,53 @@ a {
 .list-news {
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 59px;
 }
 
 .list-news li {
-    padding-right: 90px;
+    padding-right: 7vw;
+    width: 30vw;
 }
 
 .item-ttl {
     text-decoration: underline;
     text-align: center;
     padding-bottom: 10px;
+    font-size: 2.5rem;
 }
 
 .item-date {
     text-align: right;
+    font-size: 2.5rem;
 }
 
 .about {
-    width: 1920px;
     height: 846px;
     display: flex;
 }
 
 .about-img-wrapper {
-    padding-left: 120px;
+    padding-left: 5vw;
+    width: 50vw;
 }
 
 .about-img-back {
-    width: 846px;
-    height: 606px;
+    width: 44vw;
+    height: 32vw;
     background-color: #FFF5E0;
     margin-top: 111px;
 }
 
 .thumbnail {
     position: absolute;
-    top: 2051.5px;
-    left: 230px;
+    top: 210vh;
+    left: 8vw;
+    width: 44vw;
 }
 
 .about-text-wrapper {
-    padding-left: 169px;
-    padding-right: 120px;
+    padding-left: 9vw;
+    padding-right: 5vw;
 }
 
 .about-ttl {
@@ -168,18 +186,116 @@ a {
     color: #707070;
 }
 
+.gallery {
+    height: 1025px;
+}
+
 .gallery-ttl {
     text-align: center;
     font-size: 50px;
 }
 
 .slide-wrap {
-    margin-top: 129px;
-    margin-bottom: 129px;
-}
-
-.slide-wrap ul {
     display: flex;
     overflow: hidden;
-    left: -3000px;
+}
+
+.form-wrap {
+    height: 1478px;
+}
+
+.form-ttl {
+    margin: 0px;
+    font-size: 75px;
+    padding-left: 120px;
+    padding-right: 120px;
+    height: 150px;
+    background-color: #F7BB3E;
+    vertical-align: middle;
+    padding-top: 38px;
+}
+
+#form {
+    height: 1328px;
+    background-color: #DDDDDD;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.mailtxt {
+    margin: 0;
+    padding-top: 119px;
+    padding-bottom: 65px;
+    font-size: 25px;
+    color: #707070;
+}
+
+.form {
+    margin: 0px;
+}
+
+.form li {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.text_area {
+    font-size: 30px;
+}
+
+.form_area {
+    margin: 0 0 0 auto;
+}
+
+.form-item {
+    width: 859px;
+    height: 73px;
+    font-size: 30px;
+}
+
+.form_area textarea {
+    height: 203px;
+}
+
+hr {
+    color: #F5F5F5;
+    margin-bottom: 40px;
+}
+
+.form-submit {
+    width: 314px;
+    height: 77px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #707070;
+    background-color: #F7BB3E;
+}
+
+.footer {
+    height: 600px;
+}
+
+.footer-inner {
+    padding: 0 120px;
+    height: 500px;
+    background-color: #FFF5E0;
+}
+
+.footer-img {
+    padding-top: 108px;
+}
+
+.link_area a {
+    padding-top: 30px;
+    padding-left: 61.5px;
+    font-size: 25px;
+}
+
+.footer-copy-rights {
+    height: 100px;
+    text-align: center;
+    padding-top: 38px;
+    font-size: 38px;
+    color: #707070;
+    background-color: #F7BB3E;
 }

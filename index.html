@@ -23,20 +23,22 @@
                     </ul>
                 </nav>
             </div>
-        </header>
-        <main class="main-index">
+
             <div class="mv">
                 <div class="mv-imgs">
-                    <img src="items/BackGround@2x.jpg" alt="" class="mv-background">
-                    <img src="items/brooke-cagle--uHVRvDr7pg-unsplash@2x.png" alt="" class="mv-img">
+                    <img src="items/BackGround.png" alt="" class="mv-background">
+                    <img src="items/brooke-cagle--uHVRvDr7pg-unsplash.png" alt="" class="mv-img">
                 </div>
                 <div class="mv-ttl-wrapper">
                     <div class="mv-ttls">
-                        <h1 class="mv-ttl">いい感じのタイトル</h1>
-                        <h2 class="mv-subttl">いい感じのサブタイトル</h2>
+                        <h1 class="mv-ttl">共創</h1>
+                        <h2 class="mv-subttl">お客様とともに創るウェブサイト</h2>
                     </div>
                 </div>
             </div>
+
+        </header>
+        <main class="main-index">
             <div class="news">
                 <div class="news-ttl-wrapper">
                     <h1 class="news-ttl-en">News</h1>
@@ -72,39 +74,35 @@
                     <img src="items/photo-1600880292203-757bb62b4baf@2x.jpg" alt="" class="thumbnail">
                 </div>
                 <div class="about-text-wrapper">
-                    <h2 class="about-ttl">事業を最大限発信すること</h2>
+                    <h2 class="about-ttl">世界のトップ企業も愛用<br> ~ React ~</h2>
                     <div class="about-text">
                         <p>
-                            ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-                            <br><br> ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-                            <br><br> ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-                        </p>
+                            「React」の利点はまるでアプリケーションのようにサクサク動くことです。従来のウェブページではページ移動の際に、読み込みが走るのですが、Reactは読み込みなしでページが切り替わります。
+                            <br><br>だから「スマホアプリかよ！」と思うくらいサクサク動いてくれるのです。<br><br>そして「リアルタイム性」も強みです。利用者がアクションを起こしたとき、すぐに画面に表示されます。これは「お問い合わせチャット」「お問い合わせボット」などの技術に多いに貢献します。</p>
                     </div>
                 </div>
             </div>
             <div class="gallery">
                 <h2 class="gallery-ttl">GALLERY</h2>
                 <div class="slide-wrap">
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="items/クライマークス-1-768x671@2x.jpg" alt="">
-                                <div class="item-ttl">ここにテキストが入ります</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="items/リライル会計事務所-1-768x671@2x.jpg" alt="">
-                                <div class="item-ttl">ここにテキストが入ります</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="items/NONAKAWORLD-1-768x671@2x.jpg" alt="">
-                                <div class="item-ttl">ここにテキストが入ります</div>
-                            </a>
-                        </li>
-                    </ul>
+                    <div>
+                        <a href="">
+                            <img src="items/クライマークス-1-768x671@2x.jpg" alt="">
+                            <div class="item-ttl">ここにテキストが入ります</div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="items/リライル会計事務所-1-768x671@2x.jpg" alt="">
+                            <div class="item-ttl">ここにテキストが入ります</div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="items/NONAKAWORLD-1-768x671@2x.jpg" alt="">
+                            <div class="item-ttl">ここにテキストが入ります</div>
+                        </a>
+                    </div>
                     <div class="slide-btn-l">
 
                     </div>
@@ -115,47 +113,55 @@
             </div>
             <div class="form-wrap">
                 <h2 class="form-ttl">お問い合わせ </h2>
-                <form id="form" action="conf.php" method="post">
+                <form id="form" method="post">
+                    <p class="mailtxt">この度は、お問い合わせ頂きありがとうございます。<br> お問い合わせ頂いた内容につきましては、一営業日以内に回答させて頂きます。</p>
                     <ul class="form">
+
                         <li>
                             <div class="text_area"><label for="name">お名前</label></div>
                             <div class="form_area"><input name="name" id="name" type="text" class="form-item ms" placeholder="リビュール太朗" required></div>
                         </li>
+                        <hr size="3px" color="#F5F5F5">
                         <li>
                             <div class="text_area"><label for="kana">ふりがな</label></div>
                             <div class="form_area"><input name="kana" id="kana" type="text" class="form-item ms" placeholder="りびゅーるたろう" required></div>
                         </li>
+                        <hr size="3px" color="#F5F5F5">
                         <li>
                             <div class="text_area"><label class="req" for="mail">メールアドレス</label></div>
                             <div class="form_area"><input name="mail" id="mail" type="email" class="form-item" placeholder="libeol@mail.com" required></div>
                         </li>
+                        <hr size="3px" color="#F5F5F5">
                         <li>
                             <div class="text_area"><label class="req" for="tell">電話番号</label></div>
                             <div class="form_area"><input name="tell" id="tell" type="text" class="form-item" placeholder="000-0000-0000" required></div>
                         </li>
+                        <hr size="3px" color="#F5F5F5">
                         <li>
                             <div class="text_area"><label for="message">お問い合わせ内容</label></div>
                             <div class="form_area"><textarea name="message" id="message" type="text" class="form-item" placeholder="お問い合わせ内容を入力してください。" required></textarea></div>
                         </li>
+                        <hr size="3px" color="#F5F5F5">
+                        <li>
+                            <input type="submit" class="form-submit" name="button" value="内容の確認画面へ">
+                        </li>
                     </ul>
-                    <p class="mailtxt">上記入力内容にお間違いないかご確認の上、確認画面へお進みください。内容を確認後、営業日中にメールにてお返事させて頂きます。</p>
-                    <input type="submit" class="form-submit" name="button" value="内容の確認画面へ">
                 </form>
             </div>
         </main>
         <footer class="footer">
             <div class="footer-inner">
                 <div class="footer-img">
-                    <img src="items/アセット 8@2x.png" alt="">
+                    <a href=""><img src="items/アセット 8@2x.png" alt=""></a>
                 </div>
                 <div class="link_area">
                     <a href="about/" class="link-text">Libeolについて</a>
                     <a href="gallery/" class="link-text">ギャラリー</a>
                     <a href="contact/" class="link-text">お問い合わせ</a>
                 </div>
-                <div class="footer-copy-rights">
-                    Copyright &copy; Libeol. All Rights Reserved.
-                </div>
+            </div>
+            <div class="footer-copy-rights">
+                Copyright &copy; Libeol. All Rights Reserved.
             </div>
         </footer>
     </div>
